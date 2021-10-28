@@ -1,0 +1,208 @@
+#MyCard1{
+    background-image: url('img/back.jpg');    
+}
+
+#MyCard2{
+    background-image: url('img/back2.jpg');    
+}
+
+#MyCard3{
+    background-image: url('img/back3.jpg');    
+}
+
+#MyCard4{
+    background-image: url('img/back4.jpg');    
+}
+
+.mycard{ 
+    transition: all 0.5s ease;
+    background-position: center;   
+    overflow:hidden;
+    background-size:100%;
+    font-size:12px;
+    padding: 25em 0 0; 
+    max-width:220px;   
+    max-height:300px;     
+    margin:auto;
+}
+
+.mycard:hover{ 
+    background-size:110%;
+       
+}
+
+.mycard-content{
+    transition: transform 0.5s ease;
+    padding: 1em 1em 1em;
+    transform:translateY(0%);
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,1));
+}
+
+.mycard:hover .mycard-content{
+    transform:translateY(-100%);
+}
+
+.mycard-title{
+    font-size:20px;
+    transition:transform 1s ease;
+    transition-delay: 0.3s;
+    color:#ffc704;
+    transform: translateX(-100%);
+}
+
+.mycard:hover .mycard-title{
+    transform: translateX(0);
+}
+
+.mycard-text{
+    transition:opacity 0.8s ease;
+    transition-delay:0.8s;
+    opacity:0;
+    color:#ffffff;
+}
+
+.mycard:hover .mycard-text{
+    opacity:1;
+}
+
+.mycard-button{
+    border-radius:0px;
+    transition:transform 0.8s ease;
+    transition-delay: 0.6s;
+    transform:translateX(400%);
+    font-size:12px;
+    padding: 0.2em 0.5em;
+}
+
+.mycard:hover .mycard-button{
+    transform: translateX(0);
+}
+
+/*******************************************/
+#IconCard1{
+    background-position-y:20px;
+}
+
+#IconCard2{
+    background-position-y:-228px;
+}
+
+#IconCard3{
+    background-position-y:-476px;
+}
+
+#IconCard4{
+    background-position-y:-724px;
+}
+
+.iconcard{
+    text-align: center;
+    font-size:14px;
+    padding: 1em 0 0;    
+    max-width:300px;
+    max-height:560px;
+    margin:auto;
+    overflow:hidden;
+    box-shadow: 0 0 0.5em lightgray;
+    transition: all 0.5s ease;
+}
+
+.iconcard:hover{
+    box-shadow: 0 0 2em lightgray;
+}
+
+.iconcard-icon{
+    transition:all 0.6s ease-in-out;
+    background-image:url('img/iconsLane.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    width:75px;
+    height:75px;
+    border-radius:100%;
+    box-shadow: 0 0 1em lightgray;
+    margin:1em auto 1em;        
+}
+
+#IconCard1:hover{
+    background-position-y: -104px;
+    background-color:gold;
+}
+
+#IconCard2:hover{
+    background-position-y: -352px;
+    background-color:gold;
+}
+
+#IconCard3:hover{
+    background-position-y: -600px;
+    background-color:gold;
+}
+
+#IconCard4:hover{
+    background-position-y: -848px;
+    background-color:gold;
+}
+
+.iconcard-content{
+    padding: 0 0.5em;
+}
+
+.iconcard-title{
+    padding: 0.5em 1em 0;
+    color:#CC0000;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.iconcard-text{    
+    font-size:14px;
+}
+
+/**************************************/
+
+.cardprod{
+    border:0px solid black; 
+    margin:auto;
+    max-width:320px;   
+}
+
+.cardprod-image{
+    position:relative;
+    width:100%;    
+}
+
+.cardprod-content{
+ padding:1em 0.5em;
+ max-height:400px;
+ background-color:#ffffff;
+}
+
+.cardprod-title{    
+    color:#CC0000;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.cardprod-eval{
+    padding: 0 0 2em;
+}
+
+.cardprod-button{
+    display: inline-block;
+    background-color:#336699;
+    color:#ffffff;
+    transition: all 0.2 ease;
+}
+
+.cardprod-button:hover{    
+    background-color: dodgerblue;
+    
+}
+
+.cardprod-price{
+    color:#CC0000;
+    font-size:14px;
+    
+    padding:1em 0;
+    float:right;    
+}
