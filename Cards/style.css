@@ -1,3 +1,5 @@
+/**********************************CARD CITIES*********************************************/
+
 #MyCard1{
     background-image: url('img/back.jpg');    
 }
@@ -78,7 +80,7 @@
     transform: translateX(0);
 }
 
-/*******************************************/
+/**********************************CARD ICONS*********************************************/
 #IconCard1{
     background-position-y:20px;
 }
@@ -158,13 +160,19 @@
     font-size:14px;
 }
 
-/**************************************/
+/**********************************CARD PRODS*********************************************/
 
 .cardprod{
     border:0px solid black; 
     margin:auto;
     max-width:320px;  
-    overflow:hidden;        
+    overflow:hidden; 
+    transition: box-shadow 0.5s ease;       
+}
+
+.cardprod:hover{
+    box-shadow: 0 0 0.5em #f8a8a8;
+ 
 }
 
 .cardprod-image{
@@ -185,11 +193,9 @@
     cursor: pointer;
 }
 
-.cardprod-icon:hover{    
-
+.cardprod-icon:hover{ 
     background-color:gold;
     color:#cc0000;
-
 }
 
 #IcnFavorite{
@@ -264,13 +270,14 @@
 
 .cardprod-button{
     display: inline-block;
-    background-color:#336699;
+    background-color:#cc0000;
     color:#ffffff;
     transition: all 0.2 ease;
 }
 
 .cardprod-button:hover{    
-    background-color: dodgerblue;
+    background-color: gold;
+    color:#cc0000;
     
 }
 
@@ -280,3 +287,249 @@
     padding:1em 0;
     float:right;    
 }
+
+/**********************************CARD MEMBERS*********************************************/
+
+.cardmember{  
+    position:relative;  
+    margin:auto;
+    overflow:hidden;
+    font-size:14.5px;
+    padding:21em 0 0;
+    background-size: cover;
+    background-position: center;
+    width: 270px;
+    max-height: 290px;    
+    transition: all 0.3s ease;
+}
+
+.cardmember:hover{
+    box-shadow: 0 0 1em orangered;
+}  
+
+.cardmember-social{
+    position:absolute;;
+    top:0px;        
+    height:180px;;
+    color: white;
+}
+
+#CardAgentSocial1{        
+    position: absolute;
+    text-align: center;
+    padding-top: 0.45em;
+    background-color: #ffffff;
+    color:#000066;
+    font-size:25px;
+    width:35px;
+    height:35px;    
+    cursor: pointer;
+    border-radius: 100%;    
+    top:10px;
+    transform: translateX(-120%);  
+    transition:transform 0.5s ease;       
+}
+
+#CardAgentSocial1:hover{        
+    background-color: orangered;
+    color:#ffffff;      
+    
+}
+
+.cardmember:hover #CardAgentSocial1{     
+    transform: translateX(15%) rotate(360deg); 
+    
+}
+
+#CardAgentSocial2{
+    position:absolute;
+    text-align: center;
+    padding-top: 0.4em;
+    background-color: #ffffff;
+    color:#000066;
+    font-size:25px;
+    width:35px;
+    height:35px;    
+    cursor: pointer;
+    border-radius: 100%;    
+    top:50px;
+    transform: translateX(-120%); 
+    transition:transform 0.5s ease 0.3s;
+}
+
+#CardAgentSocial2:hover{        
+    background-color: orangered;
+    color:#ffffff;
+    
+}
+
+.cardmember:hover #CardAgentSocial2{
+    transform: translateX(15%) rotate(360deg); 
+}
+
+#CardAgentSocial3{
+    position: absolute;
+    text-align: center;
+    padding-top: 0.35em;
+    background-color: #ffffff;
+    color:#000066;
+    font-size:25px;
+    width:35px;
+    height:35px;    
+    cursor: pointer;
+    border-radius: 100%;    
+    top:90px;    
+    transform: translateX(-120%); 
+    transition:transform 0.5s ease 0.6s; 
+}
+
+#CardAgentSocial3:hover{        
+    background-color: orangered;
+    color:#ffffff;
+    
+}
+
+.cardmember:hover #CardAgentSocial3{
+    transform: translateX(15%) rotate(360deg); 
+}
+
+#CardAgent0{
+    background-image: url('img/cardAgent0.jpg');
+}
+
+#CardAgent1{
+    background-image: url('img/cardAgent1.jpg');
+}
+
+#CardAgent2{
+    background-image: url('img/cardAgent2.jpg');
+}
+
+#CardAgent3{
+    background-image: url('img/cardAgent3.jpg');
+}
+
+.cardmember-icon{    
+    position:absolute;
+    background-color:orangered;
+    color:#ffffff;
+    font-size: 16px;
+    padding:0.8em 0.8em;       
+    border-radius:100%;
+    z-index:0;                
+    cursor: pointer;
+    left:215px;
+    top:-20px;
+    transition: all 0.5s ease;  
+    transform-origin: center;  
+    transition-delay: 0.4s;
+}
+
+.cardmember:hover .cardmember-icon{
+    transform: rotate(360deg);
+    background-color:#ffffff;
+    color:#000066;   
+}
+
+.cardmember-content{
+    padding:0.5em 1em 1em;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.7), rgba(255,255,255,1));
+    transition:all 0.5s ease;
+    transform: translateY(-38%);    
+}
+
+.cardmember:hover .cardmember-content{
+    transform: translateY(-95%);    
+}
+
+.cardmember-title{    
+    font-size: 22px;
+    color:#000066;
+    padding:0.2em 0em 0.2em;
+    font-weight:bold;
+}
+
+.cardmember-text{    
+    font-size: 18px;
+    line-height:0.5em;    
+    color:orangered;
+    font-weight: 600;
+}
+
+.cardmember-text-footer{
+    font-size:12px;
+    color:gray;
+    padding:0 0;
+}
+
+/**********************************CARD TEAM*********************************************/
+
+.cardteam{        
+    overflow: hidden;
+    margin:auto;    
+    width:255px;
+    height:355px;
+    border-radius:10px;          
+}
+
+
+.cardteam-image{  
+    background-color:aquamarine;  
+    position:relative;
+    margin:auto; 
+    min-height:255px;
+    border-radius:10px;         
+    transition: transform 0.5s ease;    
+    overflow: hidden;
+}
+
+.img-cardteam{   
+    border-radius:10px; 
+    margin:auto;
+    transition: all 0.5s ease;
+}
+
+.cardteam:hover .img-cardteam{
+    transform: scale(1.1) ;
+}
+
+
+.cardteam-content{
+    position:absolute;
+    transform: translateY(-50%);   
+    left:50%;
+    margin-left:-100px;
+    width:200px;
+    font-size:18px;
+    padding:1em 0.5em;
+    border-radius:10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 0.5em gray; 
+    transition: transform 0.5s ease; 
+}
+
+.cardteam:hover .cardteam-content{
+    transform: translateY(-65%);
+}
+
+.cardteam-title{
+    font-size: 22px;
+    font-weight: bold;    
+}
+
+.cardteam-text{
+    font-size: 16px;
+    color:#999999;
+}
+
+.cardteam-social-icon{
+    display: inline-block;
+    border: 1px solid burlywood;
+    background-color: #ffffff;
+    color:burlywood;
+    padding: 0.5em 0;
+    width:40px;
+    border-radius:100%;
+}
+
+
