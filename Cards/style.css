@@ -163,13 +163,88 @@
 .cardprod{
     border:0px solid black; 
     margin:auto;
-    max-width:320px;   
+    max-width:320px;  
+    overflow:hidden;        
 }
 
 .cardprod-image{
-    position:relative;
-    width:100%;    
+    background-size:cover;
+    padding:1em 1em ;       
+    z-index:0; 
+    height:200px;
 }
+
+.cardprod-icon{    
+    margin:0 0.1em;
+    background-color:#ffffff;
+    color:#cc0000;
+    padding:0.6em 0.6em ;       
+    border-radius:100%;
+    z-index:0;             
+    transform: translateX(-400%);
+    cursor: pointer;
+}
+
+.cardprod-icon:hover{    
+
+    background-color:gold;
+    color:#cc0000;
+
+}
+
+#IcnFavorite{
+    transition: transform 0.5s ease 0s;
+}
+
+#IcnLike{
+    transition: transform 0.5s ease 0.3s;
+}
+
+#IcnShop{
+    transition: transform 0.5s ease 0.6s;
+}
+
+.cardprod:hover .cardprod-icon{
+    transform: translateX(-10%) rotate(360deg);
+}
+
+
+#ProdImage1{
+    background-image: url('img/cardProd1.jpg');
+    transition: all 0.5s linear;
+}
+
+#ProdImage1:hover{
+    background-image: url('img/cardProd11.jpg');
+}
+
+#ProdImage2{
+    background-image: url('img/cardProd2.jpg');
+    transition: all 0.5s linear;
+}
+
+#ProdImage2:hover{
+    background-image: url('img/cardProd21.jpg');
+}
+
+#ProdImage3{
+    background-image: url('img/cardProd3.jpg');
+    transition: all 0.5s linear;
+}
+
+#ProdImage3:hover{
+    background-image: url('img/cardProd31.jpg');
+}
+
+#ProdImage4{
+    background-image: url('img/cardProd4.jpg');
+    transition: all 0.5s linear;
+}
+
+#ProdImage4:hover{
+    background-image: url('img/cardProd41.jpg');
+}
+
 
 .cardprod-content{
  padding:1em 0.5em;
@@ -201,8 +276,7 @@
 
 .cardprod-price{
     color:#CC0000;
-    font-size:14px;
-    
+    font-size:16px;    
     padding:1em 0;
     float:right;    
 }
