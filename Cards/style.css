@@ -1,535 +1,671 @@
 /**********************************CARD CITIES*********************************************/
 
-#MyCard1{
-    background-image: url('img/back.jpg');    
+#MyCard1 {
+    background-image: url('img/back.jpg');
 }
 
-#MyCard2{
-    background-image: url('img/back2.jpg');    
+#MyCard2 {
+    background-image: url('img/back2.jpg');
 }
 
-#MyCard3{
-    background-image: url('img/back3.jpg');    
+#MyCard3 {
+    background-image: url('img/back3.jpg');
 }
 
-#MyCard4{
-    background-image: url('img/back4.jpg');    
+#MyCard4 {
+    background-image: url('img/back4.jpg');
 }
 
-.mycard{ 
+.mycard {
     transition: all 0.5s ease;
-    background-position: center;   
-    overflow:hidden;
-    background-size:100%;
-    font-size:12px;
-    padding: 25em 0 0; 
-    max-width:220px;   
-    max-height:300px;     
-    margin:auto;
+    background-position: center;
+    overflow: hidden;
+    background-size: 100%;
+    font-size: 12px;
+    padding: 25em 0 0;
+    max-width: 220px;
+    max-height: 300px;
+    margin: auto;
 }
 
-.mycard:hover{ 
-    background-size:110%;
-       
+.mycard:hover {
+    background-size: 110%;
 }
 
-.mycard-content{
+.mycard-content {
     transition: transform 0.5s ease;
     padding: 1em 1em 1em;
-    transform:translateY(0%);
-    background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,1));
+    transform: translateY(0%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1));
 }
 
-.mycard:hover .mycard-content{
-    transform:translateY(-100%);
+.mycard:hover .mycard-content {
+    transform: translateY(-100%);
 }
 
-.mycard-title{
-    font-size:20px;
-    transition:transform 1s ease;
+.mycard-title {
+    font-size: 20px;
+    transition: transform 1s ease;
     transition-delay: 0.3s;
-    color:#ffc704;
+    color: #ffc704;
     transform: translateX(-100%);
 }
 
-.mycard:hover .mycard-title{
+.mycard:hover .mycard-title {
     transform: translateX(0);
 }
 
-.mycard-text{
-    transition:opacity 0.8s ease;
-    transition-delay:0.8s;
-    opacity:0;
-    color:#ffffff;
+.mycard-text {
+    transition: opacity 0.8s ease;
+    transition-delay: 0.8s;
+    opacity: 0;
+    color: #ffffff;
 }
 
-.mycard:hover .mycard-text{
-    opacity:1;
+.mycard:hover .mycard-text {
+    opacity: 1;
 }
 
-.mycard-button{
-    border-radius:0px;
-    transition:transform 0.8s ease;
+.mycard-button {
+    border-radius: 0px;
+    transition: transform 0.8s ease;
     transition-delay: 0.6s;
-    transform:translateX(400%);
-    font-size:12px;
+    transform: translateX(400%);
+    font-size: 12px;
     padding: 0.2em 0.5em;
 }
 
-.mycard:hover .mycard-button{
+.mycard:hover .mycard-button {
     transform: translateX(0);
 }
 
+
 /**********************************CARD ICONS*********************************************/
-#IconCard1{
-    background-position-y:20px;
+
+#IconCard1 {
+    background-position-y: 20px;
 }
 
-#IconCard2{
-    background-position-y:-228px;
+#IconCard2 {
+    background-position-y: -228px;
 }
 
-#IconCard3{
-    background-position-y:-476px;
+#IconCard3 {
+    background-position-y: -476px;
 }
 
-#IconCard4{
-    background-position-y:-724px;
+#IconCard4 {
+    background-position-y: -724px;
 }
 
-.iconcard{
+.iconcard {
     text-align: center;
-    font-size:14px;
-    padding: 1em 0 0;    
-    max-width:300px;
-    max-height:560px;
-    margin:auto;
-    overflow:hidden;
+    font-size: 14px;
+    padding: 1em 0 0;
+    max-width: 300px;
+    max-height: 560px;
+    margin: auto;
+    overflow: hidden;
     box-shadow: 0 0 0.5em lightgray;
     transition: all 0.5s ease;
 }
 
-.iconcard:hover{
+.iconcard:hover {
     box-shadow: 0 0 2em lightgray;
 }
 
-.iconcard-icon{
-    transition:all 0.6s ease-in-out;
-    background-image:url('img/iconsLane.png');
+.iconcard-icon {
+    transition: all 0.6s ease-in-out;
+    background-image: url('img/iconsLane.png');
     background-repeat: no-repeat;
-    background-position:center;
-    width:75px;
-    height:75px;
-    border-radius:100%;
+    background-position: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
     box-shadow: 0 0 1em lightgray;
-    margin:1em auto 1em;        
+    margin: 1em auto 1em;
 }
 
-#IconCard1:hover{
+#IconCard1:hover {
     background-position-y: -104px;
-    background-color:gold;
+    background-color: gold;
 }
 
-#IconCard2:hover{
+#IconCard2:hover {
     background-position-y: -352px;
-    background-color:gold;
+    background-color: gold;
 }
 
-#IconCard3:hover{
+#IconCard3:hover {
     background-position-y: -600px;
-    background-color:gold;
+    background-color: gold;
 }
 
-#IconCard4:hover{
+#IconCard4:hover {
     background-position-y: -848px;
-    background-color:gold;
+    background-color: gold;
 }
 
-.iconcard-content{
+.iconcard-content {
     padding: 0 0.5em;
 }
 
-.iconcard-title{
+.iconcard-title {
     padding: 0.5em 1em 0;
-    color:#CC0000;
-    font-size:18px;
+    color: #CC0000;
+    font-size: 18px;
     font-weight: bold;
 }
 
-.iconcard-text{    
-    font-size:14px;
+.iconcard-text {
+    font-size: 14px;
 }
+
 
 /**********************************CARD PRODS*********************************************/
 
-.cardprod{
-    border:0px solid black; 
-    margin:auto;
-    max-width:320px;  
-    overflow:hidden; 
-    transition: box-shadow 0.5s ease;       
+.cardprod {
+    border: 0px solid black;
+    margin: auto;
+    max-width: 320px;
+    overflow: hidden;
+    transition: box-shadow 0.5s ease;
 }
 
-.cardprod:hover{
+.cardprod:hover {
     box-shadow: 0 0 0.5em #f8a8a8;
- 
 }
 
-.cardprod-image{
-    background-size:cover;
-    padding:1em 1em ;       
-    z-index:0; 
-    height:200px;
+.cardprod-image {
+    background-size: cover;
+    padding: 1em 1em;
+    z-index: 0;
+    height: 200px;
 }
 
-.cardprod-icon{    
-    margin:0 0.1em;
-    background-color:#ffffff;
-    color:#cc0000;
-    padding:0.6em 0.6em ;       
-    border-radius:100%;
-    z-index:0;             
+.cardprod-icon {
+    margin: 0 0.1em;
+    background-color: #ffffff;
+    color: #cc0000;
+    padding: 0.6em 0.6em;
+    border-radius: 100%;
+    z-index: 0;
     transform: translateX(-400%);
     cursor: pointer;
 }
 
-.cardprod-icon:hover{ 
-    background-color:gold;
-    color:#cc0000;
+.cardprod-icon:hover {
+    background-color: gold;
+    color: #cc0000;
 }
 
-#IcnFavorite{
+#IcnFavorite {
     transition: transform 0.5s ease 0s;
 }
 
-#IcnLike{
+#IcnLike {
     transition: transform 0.5s ease 0.3s;
 }
 
-#IcnShop{
+#IcnShop {
     transition: transform 0.5s ease 0.6s;
 }
 
-.cardprod:hover .cardprod-icon{
+.cardprod:hover .cardprod-icon {
     transform: translateX(-10%) rotate(360deg);
 }
 
-
-#ProdImage1{
+#ProdImage1 {
     background-image: url('img/cardProd1.jpg');
     transition: all 0.5s linear;
 }
 
-#ProdImage1:hover{
+#ProdImage1:hover {
     background-image: url('img/cardProd11.jpg');
 }
 
-#ProdImage2{
+#ProdImage2 {
     background-image: url('img/cardProd2.jpg');
     transition: all 0.5s linear;
 }
 
-#ProdImage2:hover{
+#ProdImage2:hover {
     background-image: url('img/cardProd21.jpg');
 }
 
-#ProdImage3{
+#ProdImage3 {
     background-image: url('img/cardProd3.jpg');
     transition: all 0.5s linear;
 }
 
-#ProdImage3:hover{
+#ProdImage3:hover {
     background-image: url('img/cardProd31.jpg');
 }
 
-#ProdImage4{
+#ProdImage4 {
     background-image: url('img/cardProd4.jpg');
     transition: all 0.5s linear;
 }
 
-#ProdImage4:hover{
+#ProdImage4:hover {
     background-image: url('img/cardProd41.jpg');
 }
 
-
-.cardprod-content{
- padding:1em 0.5em;
- max-height:400px;
- background-color:#ffffff;
+.cardprod-content {
+    padding: 1em 0.5em;
+    max-height: 400px;
+    background-color: #ffffff;
 }
 
-.cardprod-title{    
-    color:#CC0000;
-    font-size:16px;
+.cardprod-title {
+    color: #CC0000;
+    font-size: 16px;
     font-weight: bold;
 }
 
-.cardprod-eval{
+.cardprod-eval {
     padding: 0 0 2em;
 }
 
-.cardprod-button{
+.cardprod-button {
     display: inline-block;
-    background-color:#cc0000;
-    color:#ffffff;
+    background-color: #cc0000;
+    color: #ffffff;
     transition: all 0.2 ease;
 }
 
-.cardprod-button:hover{    
+.cardprod-button:hover {
     background-color: gold;
-    color:#cc0000;
-    
+    color: #cc0000;
 }
 
-.cardprod-price{
-    color:#CC0000;
-    font-size:16px;    
-    padding:1em 0;
-    float:right;    
+.cardprod-price {
+    color: #CC0000;
+    font-size: 16px;
+    padding: 1em 0;
+    float: right;
 }
 
-/**********************************CARD MEMBERS*********************************************/
 
-.cardmember{  
-    position:relative;  
-    margin:auto;
-    overflow:hidden;
-    font-size:14.5px;
-    padding:21em 0 0;
+/**********************************CARD ITEMS*********************************************/
+
+.carditem {
+    padding: 0.8em 0;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 280px;
+    height: 440px;
+    overflow: hidden;
+}
+
+.carditem-image {
+    position: relative;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 90%;
+    margin: auto;
     background-size: cover;
     background-position: center;
-    width: 270px;
-    max-height: 290px;    
-    transition: all 0.3s ease;
+    padding: 15em 0 0;
+    transition: transform 0.5s ease;
 }
 
-.cardmember:hover{
-    box-shadow: 0 0 1em orangered;
-}  
+.carditem:hover .carditem-image {
+    transform: scale(1.3);
+}
 
-.cardmember-social{
-    position:absolute;;
-    top:0px;        
-    height:180px;;
+#CardItem1 {
+    background-image: url('img/imgCloth1.jpg');
+}
+
+#CardItem2 {
+    background-image: url('img/imgCloth2.jpg');
+}
+
+#CardItem3 {
+    background-image: url('img/imgCloth3.jpg');
+}
+
+#CardItem4 {
+    background-image: url('img/imgCloth4.jpg');
+}
+
+.carditem-cat {
+    position: absolute;
+    border-radius: 2px;
+    transform: translateX(20%) translateY(-1200%);
+    font-size: 10px;
+    padding: 0.2em 1em;
     color: white;
 }
 
-#CardAgentSocial1{        
+.sale {
+    background-color: #00cc22;
+}
+
+.clear {
+    background-color: #000000;
+}
+
+.hot {
+    background-color: #6a2839;
+}
+
+.carditem-icon {
+    border-radius: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    padding: 0.5em 0.5em;
+    transition: all 0.5s ease;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.carditem-icon:hover {
+    background-color: #6a2839;
+}
+
+.carditem:hover .carditem-icon {
+    opacity: 1;
+}
+
+#CardItemLike {
+    transform: translateX(650%) translateY(-700%);
+}
+
+#CardItemSearch {
+    transform: translateX(560%) translateY(-580%);
+}
+
+.carditem-button {
+    margin: 0 0;
+    border: 0;
+    border-radius: 0;
+    background-color: #6a2839;
+    color: white;
+    font-size: 10pt;
+    font-weight: bold;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.carditem-button:hover {
+    background-color: #000000;
+}
+
+.carditem:hover .carditem-button {
+    opacity: 1;
+}
+
+.carditem-content {
+    position: relative;
+    padding: 0 0 1em;
+}
+
+.carditem-text {
+    padding: 0.5em 1em;
+}
+
+.carditem-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carditem-price {
+    font-size: 16px;
+    color: #6a2839;
+}
+
+.carditem-text .dashed {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+
+/**********************************CARD MEMBERS*********************************************/
+
+.cardmember {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    font-size: 14.5px;
+    padding: 21em 0 0;
+    background-size: cover;
+    background-position: center;
+    width: 270px;
+    max-height: 290px;
+    transition: all 0.3s ease;
+}
+
+.cardmember:hover {
+    box-shadow: 0 0 1em orangered;
+}
+
+.cardmember-social {
+    position: absolute;
+    top: 0px;
+    height: 180px;
+    color: white;
+}
+
+#CardAgentSocial1 {
     position: absolute;
     text-align: center;
     padding-top: 0.45em;
     background-color: #ffffff;
-    color:#000066;
-    font-size:25px;
-    width:35px;
-    height:35px;    
+    color: #000066;
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
-    border-radius: 100%;    
-    top:10px;
-    transform: translateX(-120%);  
-    transition:transform 0.5s ease;       
+    border-radius: 100%;
+    top: 10px;
+    transform: translateX(-120%);
+    transition: transform 0.5s ease;
 }
 
-#CardAgentSocial1:hover{        
+#CardAgentSocial1:hover {
     background-color: orangered;
-    color:#ffffff;      
-    
+    color: #ffffff;
 }
 
-.cardmember:hover #CardAgentSocial1{     
-    transform: translateX(15%) rotate(360deg); 
-    
+.cardmember:hover #CardAgentSocial1 {
+    transform: translateX(15%) rotate(360deg);
 }
 
-#CardAgentSocial2{
-    position:absolute;
+#CardAgentSocial2 {
+    position: absolute;
     text-align: center;
     padding-top: 0.4em;
     background-color: #ffffff;
-    color:#000066;
-    font-size:25px;
-    width:35px;
-    height:35px;    
+    color: #000066;
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
-    border-radius: 100%;    
-    top:50px;
-    transform: translateX(-120%); 
-    transition:transform 0.5s ease 0.3s;
+    border-radius: 100%;
+    top: 50px;
+    transform: translateX(-120%);
+    transition: transform 0.5s ease 0.3s;
 }
 
-#CardAgentSocial2:hover{        
+#CardAgentSocial2:hover {
     background-color: orangered;
-    color:#ffffff;
-    
+    color: #ffffff;
 }
 
-.cardmember:hover #CardAgentSocial2{
-    transform: translateX(15%) rotate(360deg); 
+.cardmember:hover #CardAgentSocial2 {
+    transform: translateX(15%) rotate(360deg);
 }
 
-#CardAgentSocial3{
+#CardAgentSocial3 {
     position: absolute;
     text-align: center;
     padding-top: 0.35em;
     background-color: #ffffff;
-    color:#000066;
-    font-size:25px;
-    width:35px;
-    height:35px;    
+    color: #000066;
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
-    border-radius: 100%;    
-    top:90px;    
-    transform: translateX(-120%); 
-    transition:transform 0.5s ease 0.6s; 
+    border-radius: 100%;
+    top: 90px;
+    transform: translateX(-120%);
+    transition: transform 0.5s ease 0.6s;
 }
 
-#CardAgentSocial3:hover{        
+#CardAgentSocial3:hover {
     background-color: orangered;
-    color:#ffffff;
-    
+    color: #ffffff;
 }
 
-.cardmember:hover #CardAgentSocial3{
-    transform: translateX(15%) rotate(360deg); 
+.cardmember:hover #CardAgentSocial3 {
+    transform: translateX(15%) rotate(360deg);
 }
 
-#CardAgent0{
+#CardAgent0 {
     background-image: url('img/cardAgent0.jpg');
 }
 
-#CardAgent1{
+#CardAgent1 {
     background-image: url('img/cardAgent1.jpg');
 }
 
-#CardAgent2{
+#CardAgent2 {
     background-image: url('img/cardAgent2.jpg');
 }
 
-#CardAgent3{
+#CardAgent3 {
     background-image: url('img/cardAgent3.jpg');
 }
 
-.cardmember-icon{    
-    position:absolute;
-    background-color:orangered;
-    color:#ffffff;
+.cardmember-icon {
+    position: absolute;
+    background-color: orangered;
+    color: #ffffff;
     font-size: 16px;
-    padding:0.8em 0.8em;       
-    border-radius:100%;
-    z-index:0;                
+    padding: 0.8em 0.8em;
+    border-radius: 100%;
+    z-index: 0;
     cursor: pointer;
-    left:215px;
-    top:-20px;
-    transition: all 0.5s ease;  
-    transform-origin: center;  
+    left: 215px;
+    top: -20px;
+    transition: all 0.5s ease;
+    transform-origin: center;
     transition-delay: 0.4s;
 }
 
-.cardmember:hover .cardmember-icon{
+.cardmember:hover .cardmember-icon {
     transform: rotate(360deg);
-    background-color:#ffffff;
-    color:#000066;   
+    background-color: #ffffff;
+    color: #000066;
 }
 
-.cardmember-content{
-    padding:0.5em 1em 1em;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.7), rgba(255,255,255,1));
-    transition:all 0.5s ease;
-    transform: translateY(-38%);    
+.cardmember-content {
+    padding: 0.5em 1em 1em;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1));
+    transition: all 0.5s ease;
+    transform: translateY(-38%);
 }
 
-.cardmember:hover .cardmember-content{
-    transform: translateY(-95%);    
+.cardmember:hover .cardmember-content {
+    transform: translateY(-95%);
 }
 
-.cardmember-title{    
+.cardmember-title {
     font-size: 22px;
-    color:#000066;
-    padding:0.2em 0em 0.2em;
-    font-weight:bold;
+    color: #000066;
+    padding: 0.2em 0em 0.2em;
+    font-weight: bold;
 }
 
-.cardmember-text{    
+.cardmember-text {
     font-size: 18px;
-    line-height:0.5em;    
-    color:orangered;
+    line-height: 0.5em;
+    color: orangered;
     font-weight: 600;
 }
 
-.cardmember-text-footer{
-    font-size:12px;
-    color:gray;
-    padding:0 0;
+.cardmember-text-footer {
+    font-size: 12px;
+    color: gray;
+    padding: 0 0;
 }
+
 
 /**********************************CARD TEAM*********************************************/
 
-.cardteam{        
+.cardteam {
     overflow: hidden;
-    margin:auto;    
-    width:255px;
-    height:355px;
-    border-radius:10px;          
+    margin: auto;
+    width: 255px;
+    height: 355px;
+    border-radius: 10px;
 }
 
-
-.cardteam-image{  
-    background-color:aquamarine;  
-    position:relative;
-    margin:auto; 
-    min-height:255px;
-    border-radius:10px;         
-    transition: transform 0.5s ease;    
+.cardteam-image {
+    background-color: aquamarine;
+    position: relative;
+    margin: auto;
+    min-height: 255px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
     overflow: hidden;
 }
 
-.img-cardteam{   
-    border-radius:10px; 
-    margin:auto;
+.img-cardteam {
+    border-radius: 10px;
+    margin: auto;
     transition: all 0.5s ease;
 }
 
-.cardteam:hover .img-cardteam{
-    transform: scale(1.1) ;
+.cardteam:hover .img-cardteam {
+    transform: scale(1.1);
 }
 
-
-.cardteam-content{
-    position:absolute;
-    transform: translateY(-50%);   
-    left:50%;
-    margin-left:-100px;
-    width:200px;
-    font-size:18px;
-    padding:1em 0.5em;
-    border-radius:10px;
+.cardteam-content {
+    position: absolute;
+    transform: translateY(-50%);
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    font-size: 18px;
+    padding: 1em 0.5em;
+    border-radius: 10px;
     background-color: #ffffff;
-    box-shadow: 0 0 0.5em gray; 
-    transition: transform 0.5s ease; 
+    box-shadow: 0 0 0.5em gray;
+    transition: transform 0.5s ease;
 }
 
-.cardteam:hover .cardteam-content{
+.cardteam:hover .cardteam-content {
     transform: translateY(-65%);
 }
 
-.cardteam-title{
+.cardteam-title {
     font-size: 22px;
-    font-weight: bold;    
+    font-weight: bold;
 }
 
-.cardteam-text{
+.cardteam-text {
     font-size: 16px;
-    color:#999999;
+    color: #999999;
 }
 
-.cardteam-social-icon{
+.cardteam-social-icon {
     display: inline-block;
     border: 1px solid burlywood;
     background-color: #ffffff;
-    color:burlywood;
+    color: burlywood;
     padding: 0.5em 0;
-    width:40px;
-    border-radius:100%;
+    width: 40px;
+    border-radius: 100%;
+    transition: all .5s ease;
+    cursor: pointer;
 }
 
-
+.cardteam-social-icon:hover {
+    background-color: burlywood;
+    color: #ffffff;
+}
