@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300&family=Righteous&family=Roboto:wght@100&family=Work+Sans:wght@200&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+*/
+
+
 /**********************************CARD CITIES*********************************************/
 
 #MyCard1 {
@@ -290,6 +300,7 @@
 /**********************************CARD ITEMS*********************************************/
 
 .carditem {
+    margin: auto;
     padding: 0.8em 0;
     border: 1px solid #dddddd;
     border-radius: 6px;
@@ -668,4 +679,322 @@
 .cardteam-social-icon:hover {
     background-color: burlywood;
     color: #ffffff;
+}
+
+
+/**********************************CARD SERVICES*********************************************/
+
+.cardservice {
+    margin: auto;
+    position: relative;
+    font-size: 12px;
+    /*background-image: linear-gradient(135deg, rgb(7, 92, 121), rgb(94, 208, 243));*/
+    background-color: rgb(12, 110, 117);
+    padding: 23em 0em 0em;
+    width: 100%;
+    max-width: 270px;
+    max-height: 550px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.cardservice:hover {
+    background-color: rgb(27, 32, 63);
+}
+
+.cardservice-image {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-image: url('img/bgPlan1.png');
+    background-size: cover;
+    height: 200px;
+}
+
+.cardservice-content {
+    padding: 0.5em 1em;
+    color: #a5cdf3;
+    z-index: 999999;
+    transition: transform 0.3s ease;
+}
+
+.cardservice:hover .cardservice-content {
+    transform: translateY(-53%);
+    color: rgb(121, 182, 162);
+}
+
+.cardservice-content-top {
+    padding: 0.5em 0 1.5em;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 2px;
+    transition: all 0.1s linear;
+}
+
+.cardservice:hover .cardservice-content-top {
+    opacity: 0;
+}
+
+.cardservice-line {
+    width: 5px;
+    border: solid 2px #a5cdf3;
+    transition: all 0.2s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.cardservice:hover .cardservice-line {
+    width: 155px;
+    border: solid 2px rgb(121, 182, 162);
+}
+
+.cardservice-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.cardservice-simbol {
+    vertical-align: super;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.cardservice-price {
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+}
+
+.cardservice-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.cardservice-button {
+    margin: auto;
+    font-size: 14px;
+    padding: 0.3em 1.2em 0.3em;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cardservice-button:hover {
+    background-color: #ffffff;
+    color: rgb(27, 32, 63);
+}
+
+
+/***********************************************/
+
+.cardservice2 {
+    position: relative;
+    margin: auto;
+    font-size: 12px;
+    /*background-image: linear-gradient(135deg, rgb(7, 92, 121), rgb(94, 208, 243));*/
+    background-color: rgb(241, 192, 57);
+    padding: 23em 0em 0em;
+    width: 100%;
+    max-width: 270px;
+    max-height: 550px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.cardservice2:hover {
+    background-color: rgb(180, 75, 128);
+}
+
+.cardservice2-image {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-image: url('img/bgPlan1.png');
+    background-size: cover;
+    height: 200px;
+}
+
+.cardservice2-content {
+    padding: 0.5em 1em;
+    color: tomato;
+    z-index: 999999;
+    transition: transform 0.3s ease;
+}
+
+.cardservice2:hover .cardservice2-content {
+    transform: translateY(-53%);
+    color: rgb(248, 192, 37);
+}
+
+.cardservice2-content-top {
+    padding: 0.5em 0 1.5em;
+    font-family: 'Roboto', sans-serif;
+    color: brown;
+    font-size: 22px;
+    letter-spacing: 2px;
+    transition: all 0.1s linear;
+}
+
+.cardservice2:hover .cardservice2-content-top {
+    opacity: 0;
+}
+
+.cardservice2-line {
+    width: 5px;
+    border: solid 2px tomato;
+    transition: all 0.2s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.cardservice2:hover .cardservice2-line {
+    width: 155px;
+    border: solid 2px rgb(248, 192, 37);
+}
+
+.cardservice2-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.cardservice2-simbol {
+    vertical-align: super;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.cardservice2-price {
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+}
+
+.cardservice2-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.cardservice2-button {
+    margin: auto;
+    font-size: 14px;
+    padding: 0.3em 1.2em 0.3em;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cardservice2-button:hover {
+    background-color: #ffffff;
+    color: rgb(27, 32, 63);
+}
+
+
+/***********************************************/
+
+.cardservice3 {
+    position: relative;
+    margin: auto;
+    font-size: 12px;
+    /*background-image: linear-gradient(135deg, rgb(7, 92, 121), rgb(94, 208, 243));*/
+    background-color: orangered;
+    padding: 23em 0em 0em;
+    width: 100%;
+    max-width: 270px;
+    max-height: 550px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.cardservice3:hover {
+    background-color: black;
+}
+
+.cardservice3-image {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-image: url('img/bgPlan1.png');
+    background-size: cover;
+    height: 200px;
+}
+
+.cardservice3-content {
+    padding: 0.5em 1em;
+    color: white;
+    z-index: 999999;
+    transition: transform 0.3s ease;
+}
+
+.cardservice3:hover .cardservice3-content {
+    transform: translateY(-53%);
+    color: orangered;
+}
+
+.cardservice3-content-top {
+    padding: 0.5em 0 1.5em;
+    font-family: 'Roboto', sans-serif;
+    color: yellow;
+    font-size: 22px;
+    letter-spacing: 2px;
+    transition: all 0.1s linear;
+}
+
+.cardservice3:hover .cardservice3-content-top {
+    opacity: 0;
+}
+
+.cardservice3-line {
+    width: 5px;
+    border: solid 2px white;
+    transition: all 0.2s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.cardservice3:hover .cardservice3-line {
+    width: 155px;
+    border: solid 2px orangered;
+}
+
+.cardservice3-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.cardservice3-simbol {
+    vertical-align: super;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.cardservice3-price {
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+}
+
+.cardservice3-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.cardservice3-button {
+    margin: auto;
+    font-size: 14px;
+    padding: 0.3em 1.2em 0.3em;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 18px;
+    font-family: 'Work Sans', sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cardservice3-button:hover {
+    background-color: #ffffff;
+    color: rgb(27, 32, 63);
 }
