@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300&family=Righteous&family=Roboto:wght@100&family=Work+Sans:wght@200&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300&family=Oswald:wght@300;400&family=Righteous&family=Roboto:wght@100&family=Work+Sans:wght@200&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
 
 /*
 font-family: 'Anton', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
 font-family: 'Righteous', cursive;
 font-family: 'Work Sans', sans-serif;
 font-family: 'Zen Kaku Gothic Antique', sans-serif;
@@ -997,4 +999,168 @@ font-family: 'Zen Kaku Gothic Antique', sans-serif;
 .cardservice3-button:hover {
     background-color: #ffffff;
     color: rgb(27, 32, 63);
+}
+
+
+/**********************************CARD PLANS*********************************************/
+
+.cardplan {
+    text-align: center;
+    font-size: 16px;
+    padding: 2em 1em;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    border: none;
+    color: #333333;
+}
+
+.cardplan:hover {
+    box-shadow: 0 0 1.5em #666666;
+    transform: translateY(-3%);
+}
+
+.cardplan-icon {
+    font-size: 30px;
+    padding: 0.6em;
+    border-radius: 100%;
+    background-color: gold;
+    color: #ffffff;
+}
+
+.cardplan:hover .cardplan-icon {
+    background-color: #333333;
+    color: gold;
+}
+
+.cardplan-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cardplan-price {
+    font-size: 34px;
+    letter-spacing: 3px;
+    font-family: 'Anton';
+    color: gold;
+}
+
+.cardplan-list {
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Work Sans', sans-serif;
+    border-bottom: none;
+}
+
+.cardplan-list li {
+    border-top: none;
+    border-bottom: none;
+}
+
+.cardplan-list i {
+    color: #333333;
+}
+
+.cardplan-button {
+    position: relative;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    padding: 1.5em 2.5em;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.cardplan-button:hover {
+    background-color: #000000;
+}
+
+
+/**********************************CARD TESTIMONIALS*********************************************/
+
+.cardcomment {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 2em 1em;
+    overflow: hidden;
+}
+
+.cardcomment:hover {
+    box-shadow: 0 0 1.5em #0099FF;
+}
+
+.cardcomment::before {
+    content: '';
+    position: absolute;
+    background-color: rgb(107, 171, 245);
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.cardcomment:hover::before {
+    transform: translateY(15%);
+}
+
+.cardcomment-image {
+    position: relative;
+    margin: auto;
+    background-size: cover;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border: 7px solid #ffffff;
+    transition: all 0.3s ease;
+    transform: translateY(-10%);
+}
+
+.cardcomment:hover .cardcomment-image {
+    transform: scale(1.2);
+}
+
+#ImageComment1 {
+    background-image: url('img/test1.png');
+}
+
+#ImageComment2 {
+    background-image: url('img/test2.png');
+}
+
+.cardcomment-content {
+    position: relative;
+    z-index: 10;
+}
+
+.cardcomment-title {
+    font-weight: bold;
+    color: #ffffff;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+}
+
+.cardcomment:hover .cardcomment-title {
+    transform: translateX(0%);
+}
+
+.cardcomment-text {
+    transform: translateY(-30%);
+    transition: all 0.4s ease;
+}
+
+.cardcomment:hover .cardcomment-text {
+    transform: translateY(0%);
+}
+
+.cardcomment-name {
+    color: #ffffff;
+    transform: translateX(110%);
+    transition: all 0.4s ease;
+}
+
+.cardcomment:hover .cardcomment-name {
+    transform: translateX(30%);
 }
